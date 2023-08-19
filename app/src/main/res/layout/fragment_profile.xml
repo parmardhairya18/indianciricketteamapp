@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/profile"
+    tools:context=".ProfileFragment">
+
+
+    <Button
+        android:id="@+id/fragment_profile_change_password"
+        style="@style/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:text="@string/change_password" />
+
+    <Button
+        android:id="@+id/fragment_profile_profile"
+        style="@style/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:text="@string/profile" />
+
+    <Button
+        android:id="@+id/fragment_profile_logout"
+        style="@style/button_blue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_120sdp"
+        android:text="@string/logout" />
+
+</LinearLayout>

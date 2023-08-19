@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_prof_back"
+    tools:context=".ProfileActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:src="@drawable/indlogo" />
+
+        <EditText
+            android:id="@+id/profile_name"
+            style="@style/edit_white_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:drawableLeft="@drawable/user"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="@string/name" />
+
+        <EditText
+            android:id="@+id/profile_email"
+            style="@style/edit_white_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:drawableLeft="@drawable/mail"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="@string/your_email"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/profile_contact"
+            style="@style/edit_white_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:drawableLeft="@drawable/phone"
+            android:drawablePadding="@dimen/_5sdp"
+            android:hint="@string/contact_number"
+            android:inputType="phone"
+            android:maxLength="10" />
+
+        <EditText
+            android:id="@+id/profile_date_of_birth"
+            style="@style/edit_white_14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:drawableLeft="@drawable/calander_month"
+            android:drawablePadding="@dimen/_5sdp"
+            android:editable="false"
+            android:hint="@string/date_of_birth" />
+
+        <RadioGroup
+            android:id="@+id/profile_gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/profile_male"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/male"
+                android:textColor="@color/white_transparent_70"
+                app:buttonTint="@color/white_transparent_70" />
+
+            <RadioButton
+                android:id="@+id/profile_female"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/female"
+                android:textColor="@color/white_transparent_70"
+                app:buttonTint="@color/white_transparent_70" />
+
+        </RadioGroup>
+
+        <Spinner
+            android:id="@+id/profile_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:background="#36A5D2" />
+
+        <Button
+            android:id="@+id/profile_button"
+            style="@style/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:text="@string/edit_profile" />
+
+        <Button
+            android:visibility="gone"
+            android:id="@+id/profile_submit_button"
+            style="@style/button_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_20sdp"
+            android:layout_marginVertical="@dimen/_20sdp"
+            android:text="@string/submit" />
+
+    </LinearLayout>
+
+</ScrollView>

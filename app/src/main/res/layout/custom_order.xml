@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginHorizontal="@dimen/_20sdp"
+    android:layout_marginVertical="@dimen/_5sdp"
+    app:cardCornerRadius="@dimen/_5sdp"
+    app:cardElevation="@dimen/_2sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="@dimen/_5sdp">
+
+        <TextView
+            android:id="@+id/custom_order_id"
+            style="@style/text_white_bold_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_name"
+            style="@style/text_white_trans_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_email"
+            style="@style/text_white_trans_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_contact"
+            style="@style/text_white_trans_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_address"
+            style="@style/text_white_trans_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_city"
+            style="@style/text_white_trans_16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:layout_marginTop="@dimen/_2sdp"
+            android:id="@+id/custom_order_payment_method"
+            style="@style/text_white_bold_18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

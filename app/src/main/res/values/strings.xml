@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">May Internship 23</string>
+    <string name="welcome">Welcome Back!</string>
+    <string name="welcome_message">Please Log into your existing account</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your Password</string>
+    <string name="login">Log in</string>
+    <string name="create_account">Create An Account</string>
+
+    <string name="name">Name</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="date_of_birth">Date Of Birth</string>
+
+    <string name="address">Address</string>
+
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string name="cod">Cash On Delivery</string>
+    <string name="online">Online</string>
+
+    <string name="signup">Signup</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="submit">Submit</string>
+    <string name="continue_text">Continue</string>
+
+    <string name="change_password">Change Password</string>
+
+    <string name="product_name">Product Name :</string>
+    <string name="product_price">Price :</string>
+    <string name="product_description">Description :</string>
+
+    <string name="forgot_password">Forgot Password</string>
+    <string name="title_activity_bottom_nav_demo">BottomNavDemoActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="my_order">My Order</string>
+
+</resources>
